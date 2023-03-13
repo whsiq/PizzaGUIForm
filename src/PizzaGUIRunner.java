@@ -1,5 +1,7 @@
-public class Main {
+import javax.swing.*;
+
+public class PizzaGUIRunner {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        JFrame frame = new PizzaGUIFrame();
     }
 }
